@@ -1,0 +1,250 @@
+.product-page
+{
+    background-color: #4e657a;
+    margin:0;
+}
+.pro-container
+{
+    margin: 0 13%;
+    margin-top:35px;
+    display: flex;
+}
+.pl-con
+{
+    width:68%;
+    margin-bottom: 30px;
+    height:76%;
+    margin-right:30px;
+    background-color: #435c70;
+}
+.pl
+{
+    height: 445px;
+    width:86%;
+    margin:40px;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    background-color:#435c70;
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #394e64;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color:#567086;
+}
+
+table 
+{
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    margin:0;
+    height: 44%;
+}
+.l-table
+{
+    width:100%;
+}
+thead
+{
+    background-color: #486177;
+    color: #fff;
+    font-size: 12px;
+}
+tr
+{
+    transition: all 0.2s ease;
+    font-weight: 600;
+}
+table thead th
+{
+    padding:14px 18px;
+}
+table tbody th
+{
+    padding:25px 20px;
+}
+table tbody td
+{
+    padding-left:30px;
+}
+table input
+{
+    background-color: #394e64;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+table tbody i
+{
+   font-size: 20px;
+   background-color: #394e64;
+   border-radius:50%;
+   padding:11px;
+   cursor: pointer;
+}
+.pc-con
+{
+    background-color:#435c70;
+    margin-bottom: 30px;
+    width: 28.5%;
+    height: 610px;
+}
+.add-btn,.de-se-btn
+{
+    width:87%;
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding:16px 20px;
+}
+.pc h2
+{
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px; 
+    padding-top:20px;
+    padding-left:40px;
+}
+.right-tc
+{
+    height: 405px;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    margin-left:40px;
+    margin-right:40px;
+}
+.r-table
+{
+    width:230px;
+    height: 465px;
+}
+.category-btn
+{
+    margin-left:40px;
+    width:74%;
+    padding:16px 15px;
+}
+@media (max-width: 1000px)
+{
+    .pro-container
+    {
+        display: block;
+        margin:50px 60px;
+        margin-bottom: 0;
+    }
+    .pc-con
+    {
+        background-color:#435c70;
+        margin-bottom: 30px;
+        width: 68%;
+        height: 610px;
+    }
+    .r-table
+{
+    width:530px;
+    height: 465px;
+}
+.category-btn
+{
+    margin-left:40px;
+    width:85%;
+    padding:20px 15px;
+}
+    
+}
+
+@media (max-width: 574px)
+{
+    .pro-container
+    {
+        display: block;
+        margin:50px 20px;
+        margin-bottom: 0;
+    }
+    .pl-con
+    {
+        width: 500px;
+        height: 970px;
+        margin-bottom: 50px;
+    }
+    .l-table
+    {
+        width:500px;
+    }
+    .l-table thead
+    {
+        margin-top: 40px;
+    }
+    .l-table th
+    {
+        font-size: 20px;
+    }
+    .l-table tbody,.r-table tbody
+    {
+        font-size: 22px;
+    }
+    .l-table tbody i,.r-table tbody i
+    {
+        font-size: 30px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-left:70px;
+        margin-top:20px;
+    }
+    .pl
+    {
+        width:430px;
+        height: 696px;
+        padding-top:40px;
+    }
+    .add-btn
+    {
+        width:430px;
+    }
+    .de-se-btn
+    {
+        width:430px;
+    }
+    button
+    {
+        padding: 25px 28px;
+        font-size: 20px;
+    }
+    .pc-con {
+        width: 500px;
+        height: 880px;
+        margin-bottom: 0px;
+        margin-right: 0;
+    }
+    .pc h2
+    {
+        font-size: 27px;
+        padding-top:40px;
+        padding-bottom: 20px;
+    }
+    .right-tc
+    {
+        height:600px;
+        margin-bottom: 30px;
+    }
+    .r-table
+    {
+        width: 410px;
+        height: 700px;
+    }
+    .extra-space
+    {
+        height:50px;
+    }
+    .category-btn {
+        margin-left: 40px;
+        width: 420px;
+    }
+}
